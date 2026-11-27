@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="Detector + IA por voz">
+  <g font-family='"Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Liberation Sans", Arial, sans-serif'>
+    <rect x="0.5" y="0.5" width="479" height="175" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <rect x="0.5" y="0.5" width="4" height="175" rx="2" fill="#f1e05a"/>
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.71 1.71.75.75 0 0 1-1.07 1.05A2.5 2.5 0 0 1 2 11.5zm10.5-1h-8a1 1 0 0 0-1 1v6.71A2.5 2.5 0 0 1 4.5 9h8z" fill="#8b949e" transform="translate(28 23)"/>
+    <text x="52" y="38" font-size="17.5" font-weight="700" fill="#58a6ff">Detector + IA por voz</text>
+    <text x="28" y="60" font-size="12.5" fill="#8b949e" letter-spacing="0.4">VISIÓN POR COMPUTADORA</text>
+    <text x="28" y="86" font-size="14.5" fill="#9da7b3">Detecta emociones y gestos con la cámara y responde</text><text x="28" y="108" font-size="14.5" fill="#9da7b3">preguntas por voz usando la API de Gemini.</text>
+    <rect x="28.0" y="132" width="73.8" height="24" rx="12" fill="#1f6feb" fill-opacity="0.14" stroke="#1f6feb" stroke-opacity="0.45"/><text x="64.9" y="148.5" text-anchor="middle" font-size="12.5" fill="#9ecbff">Node.js</text><rect x="109.8" y="132" width="73.8" height="24" rx="12" fill="#1f6feb" fill-opacity="0.14" stroke="#1f6feb" stroke-opacity="0.45"/><text x="146.7" y="148.5" text-anchor="middle" font-size="12.5" fill="#9ecbff">Express</text><rect x="191.6" y="132" width="118.2" height="24" rx="12" fill="#1f6feb" fill-opacity="0.14" stroke="#1f6feb" stroke-opacity="0.45"/><text x="250.7" y="148.5" text-anchor="middle" font-size="12.5" fill="#9ecbff">TensorFlow.js</text><rect x="317.8" y="132" width="66.4" height="24" rx="12" fill="#1f6feb" fill-opacity="0.14" stroke="#1f6feb" stroke-opacity="0.45"/><text x="351.0" y="148.5" text-anchor="middle" font-size="12.5" fill="#9ecbff">Gemini</text>
+  </g>
+</svg>

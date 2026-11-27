@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Luis Abel Vasquez Medina, Desarrollador Full Stack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#12223a"/>
+      <stop offset="1" stop-color="#1a3a66"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="300" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Liberation Sans", Arial, sans-serif; }
+      .mono { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+    <circle cx="1010" cy="40" r="260" fill="url(#glow)">
+      <animate attributeName="r" values="240;280;240" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="296" width="1200" height="4" fill="#3b82f6" fill-opacity="0.8"/>
+  </g>
+
+  <!-- Texto principal -->
+  <text x="64" y="86" class="mono" font-size="16" fill="#7ea7d8">~/luisv15-jpg</text>
+  <text x="64" y="146" class="sans" font-size="46" font-weight="700" fill="#ffffff">Luis Abel Vasquez Medina</text>
+  <text x="64" y="188" class="sans" font-size="23" font-weight="600" fill="#8cb8f0">Desarrollador Full Stack</text>
+  <text x="64" y="220" class="sans" font-size="17" fill="#c9d6e6">Gerente de Tecnología y Producción · Empresoft Perú</text>
+  <g transform="translate(64 244)">
+    <path d="M7 0C3.1 0 0 3.1 0 7c0 5.2 7 12 7 12s7-6.8 7-12c0-3.9-3.1-7-7-7zm0 9.6A2.6 2.6 0 1 1 7 4.4a2.6 2.6 0 0 1 0 5.2z" fill="#7ea7d8"/>
+    <text x="22" y="14" class="sans" font-size="15" fill="#9fb0c4">Lima, Perú</text>
+  </g>
+
+  <!-- Ventana de código -->
+  <g transform="translate(768 60)">
+    <rect width="368" height="182" rx="12" fill="#0d1117" fill-opacity="0.88" stroke="#30363d"/>
+    <circle cx="22" cy="20" r="5.5" fill="#ff5f57"/>
+    <circle cx="40" cy="20" r="5.5" fill="#febc2e"/>
+    <circle cx="58" cy="20" r="5.5" fill="#28c840"/>
+    <text x="184" y="25" text-anchor="middle" class="mono" font-size="12" fill="#6e7681">perfil.ts</text>
+    <line x1="0" y1="38" x2="368" y2="38" stroke="#21262d"/>
+    <g class="mono" font-size="15">
+      <text x="20" y="66"><tspan fill="#ff7b72">const</tspan><tspan fill="#d2a8ff"> luis</tspan><tspan fill="#c9d1d9"> = {</tspan></text>
+      <text x="38" y="90"><tspan fill="#79c0ff">rol</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">'Full Stack'</tspan><tspan fill="#c9d1d9">,</tspan></text>
+      <text x="38" y="114"><tspan fill="#79c0ff">stack</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">'NestJS'</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">'Next.js'</tspan><tspan fill="#c9d1d9">],</tspan></text>
+      <text x="38" y="138"><tspan fill="#79c0ff">foco</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">'ERP · apps · IA'</tspan><tspan fill="#c9d1d9">,</tspan></text>
+      <text x="20" y="162" fill="#c9d1d9">};</text>
+    </g>
+    <rect x="44" y="149" width="9" height="17" fill="#58a6ff">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

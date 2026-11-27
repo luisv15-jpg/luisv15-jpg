@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Pie de perfil">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.6" stop-color="#12223a"/>
+      <stop offset="1" stop-color="#1a3a66"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 40 C 200 10, 400 70, 600 40 S 1000 10, 1200 40 V110 H0 Z" fill="url(#f)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0 40 C 200 10, 400 70, 600 40 S 1000 10, 1200 40 V110 H0 Z;
+              M0 44 C 200 70, 400 14, 600 44 S 1000 70, 1200 44 V110 H0 Z;
+              M0 40 C 200 10, 400 70, 600 40 S 1000 10, 1200 40 V110 H0 Z"/>
+  </path>
+  <text x="600" y="86" text-anchor="middle" font-family='"Segoe UI", -apple-system, "Helvetica Neue", "Liberation Sans", Arial, sans-serif' font-size="15" fill="#9fb0c4">Gracias por visitar mi perfil</text>
+</svg>
